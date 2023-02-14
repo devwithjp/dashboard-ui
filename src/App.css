@@ -1,38 +1,143 @@
-.App {
-  text-align: center;
+.App{
+    background: #F5F5F5;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.bluebox{
+    width: 40vw;
+    height: 100vh;
+    background: #0D5F9A;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+h1{
+    font-family: Montserrat;
+    display: block;
+    color: white;
+    font-size: 72px;
+    font-weight: 700;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+.form-container{
+    position:absolute;
+    top:0;
+    width: 60vw;
+    height: 100vh;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.App-link {
-  color: #61dafb;
+.sign{
+    width: 385px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.signHeading{
+    margin: 0 0 5px;
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.signDesc{
+    margin: 0;
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.authButtonsContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.authButton{
+    height: 30px;
+    width: 180px;
+    background: #FFFFFF;
+    border-radius: 10px;
+    border: none;
+    display: flex;
+    padding: 0 19px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px 0;
+}
+
+.authText{
+    font-family: 'Montserrat';
+    font-weight: 400;
+    font-size: 12px;
+    color: #858585;
+}
+
+.registerQs{
+    font-family: 'Lato';
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    text-align: center;
+    color: #858585;
+
+
+}
+.registerBtn{
+    color: #346BD4;
+}
+
+.whiteBox{
+    box-sizing: border-box;
+    padding: 30px;
+    width: 385px;
+    height: fit-content;
+    background: #FFFFFF;
+    border-radius: 20px;
+}
+
+.emailpwForm{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+#pw, #email{
+    box-sizing: border-box;
+    margin:10px 0 20px;
+    padding: 10px 15px;
+    width: 100%;
+    height:40px;
+    background-color: #EAEAEA;
+    border-radius: 10px;
+    border: none;
+    outline: transparent;
+
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.forgotPwBtn{
+    color: #346BD5;
+    margin: 0 0 20px;
+}
+
+.signBtn{
+    width: 100%;
+    height: 40px;
+    border:none;
+    background: #0D5F9A;
+    border-radius: 10px;
+    font-family: Montserrat;
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
 }
