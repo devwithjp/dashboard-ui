@@ -1,0 +1,58 @@
+.headerContainer{
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+
+    h1{
+        font-family: 'Montserrat';
+        font-weight: 700;
+        font-size: 24px;
+        margin: 0;
+    }
+
+    .headerRight{
+        display: inline-flex;
+        align-items: center;
+        
+        .search{
+            position: relative;
+            width: 180px;
+            height: 30px;
+            
+            .searchIP{
+                background-color: #FFFFFF;
+                border-radius: 10px;
+                outline: transparent;
+                border: none;
+                box-sizing: border-box;
+                padding:6px 28px 7px 15px;
+                width: 100%;
+                height: inherit;
+                font-family: 'Lato';
+                font-weight: 400;
+                font-size: 14px;
+                color: #B0B0B0;
+            }
+            .searchIcon{
+                position: absolute;
+                right: 11px;
+                top: 6px;
+
+                width: 12px;
+                height: 12px;
+            }
+
+        }
+        #bellIcon{
+            margin-left: 30px;
+            height: 20px;
+            width: 18px;
+        }
+        #usrPic{
+            img{
+                border-radius: 50%;
+            }
+            margin-left: 30px;
+        }
+    }
+}

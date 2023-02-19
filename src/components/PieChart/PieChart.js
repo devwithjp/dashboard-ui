@@ -1,0 +1,3 @@
+import './PirChart.scss';
+
+

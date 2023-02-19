@@ -1,0 +1,20 @@
+#schedulesContainer{
+    #schedulesHeader{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Montserrat';
+        margin-bottom: 25px;
+
+        #title{
+            font-weight: 700;
+            font-size: 18px;
+        }
+
+        #seeAllBtn{
+            font-weight: 400;
+            font-size: 12px;
+            color: #858585;
+        }
+    }
+}

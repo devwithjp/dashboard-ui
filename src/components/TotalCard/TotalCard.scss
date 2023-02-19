@@ -1,0 +1,32 @@
+.cardContainer{
+    box-sizing: border-box;
+    width: 221.5px;
+    margin: 0;
+    height: 120px;
+    padding: 20px 25px;
+    border-radius: 20px;
+    color: #000000;
+
+    #totalIcon{
+        position: relative;
+        left: 84%;
+    }
+
+    #totalTitle{
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 14px;
+        
+        margin: 0;
+
+    }
+
+    #totalVal{
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 24px;
+
+        margin: 5px 0 0;
+    }
+
+}
