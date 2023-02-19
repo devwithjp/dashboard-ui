@@ -12,7 +12,7 @@ export default function Dashboard(props){
         <div>
           <SideBar/>
           <div style={{margin: '60px 60px 60px 380px'}}>
-            <Header/>
+            <Header title='Dashboard' type='main'/>
             <div className='totalCards'>
               <TotalCard backgoundClr="#DDEFE0" title="Total Revenues" val="$2,129,430" img='total card/revenue.png'/>
               <TotalCard backgoundClr="#F4ECDD" title="Total Transactions" val="1,520" img='total card/transactions.png'/>

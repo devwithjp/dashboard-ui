@@ -20,7 +20,7 @@
             height: 30px;
             
             .searchIP{
-                background-color: #FFFFFF;
+                
                 border-radius: 10px;
                 outline: transparent;
                 border: none;
@@ -31,8 +31,18 @@
                 font-family: 'Lato';
                 font-weight: 400;
                 font-size: 14px;
+            }
+
+            .searchMain{
+                background-color: #FFFFFF;
                 color: #B0B0B0;
             }
+            
+            .searchUsr{
+                color: #858585;
+                background: #F5F5F5;
+            }
+
             .searchIcon{
                 position: absolute;
                 right: 11px;
@@ -53,6 +63,38 @@
                 border-radius: 50%;
             }
             margin-left: 30px;
+        }
+
+        .iconBtns{
+            box-sizing: border-box;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            border-radius: 10px;
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 14px;
+
+
+        }
+
+        .filter {
+
+            width: 84px;
+            height: 30px;
+            padding: 7px 15px;
+            background-color: #FFFFFF;
+            border: 1px solid #B0B0B0;
+            color: #B0B0B0;
+            margin: 0 20px;
+        }
+
+        .add {
+            background: #0D5F9A;
+            height: 30px;
+            width: 80px;
+            padding: 9px 15px 7px 17px;
+            color: #FFFFFF;
         }
     }
 }

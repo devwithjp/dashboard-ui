@@ -1,0 +1,19 @@
+#pageBtnsContainer{
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+
+    #pageBtns{
+        box-sizing: border-box;
+        height:30px;
+        width: 30px;
+        background: #FFFFFF;
+        padding: 6px 10px 7px 11px;    
+        color: #858585;
+        border-radius: 10px;
+        border: 1px solid #EAEAEA;
+        margin-right: 5px;
+    }
+}
+    

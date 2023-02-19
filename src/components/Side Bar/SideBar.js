@@ -1,7 +1,7 @@
 import './SideBar.scss';
 
 
-export default function SideBar(){
+export default function SideBar(props){
     const menuItems = [
         {
             iconUrl : "sidebar/dashboard.png",
@@ -31,7 +31,7 @@ export default function SideBar(){
                     {menuItems.map((menuItem, idx)=>
                         (<div className='sideBarItem'>
                             <img src={menuItem.iconUrl} alt=""/>
-                            <span className='sideBarItemTitle' style={{fontWeight:idx === 0 ?700:400}}>{menuItem.title}</span>
+                            <span className='sideBarItemTitle' style={{fontWeight:menuItem.title === props.title ?700:400}}>{menuItem.title}</span>
                         </div>)
                     )}
                 </div>

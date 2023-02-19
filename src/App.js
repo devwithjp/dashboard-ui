@@ -1,11 +1,9 @@
 import './App.scss';
-import Dashboard from './pages/Dashboard/Dashboard';
-import WhiteBox from './components/HOC/WhiteBox/WhiteBox';
-import Login from './pages/Login/Login';
+import Users from './pages/Users/Users';
 
 function App() {
   return(
-    <Login/>
+    <Users />
   );
   
 }
