@@ -1,6 +1,44 @@
+@import '../../common/common.scss';
+
+
+
 #editProfileTitle{
     font-family: 'Montserrat';
     font-weight: 700;
     font-size: 18px;
     margin: 0 0 30px;
+}
+
+@include common-form;
+
+#editProfileContainer{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    gap: 44px;
+
+
+    #changePic{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        img{
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        #changePicBtn{
+            height: 20px;
+            width: 68px;
+            border-radius: 5px;
+            background: #FFFFFF;
+            border: 1px solid #858585;
+
+            font-family: 'Montserrat';
+            font-weight: 700;
+            font-size: 10px;
+            color: #858585;
+
+        }
+    }
+
 }

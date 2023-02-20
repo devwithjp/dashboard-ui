@@ -11,12 +11,13 @@ export default function Settings(props){
           <SideBar title='Settings'/>
           <div style={{margin: '60px 60px 60px 380px'}}>
             <Header title='Settings' type='main'/>
-
             <div id='settingsContainer'>
-              {/* <DeleteAccount />
-              <TwoFactorAuth/> */}
-              <EditProfile />
-
+              <EditProfile type="Profile"/>
+              <div style={{width: '100%'}}>
+                <EditProfile type="Account"/>
+                <DeleteAccount />
+                <TwoFactorAuth/> 
+              </div>
             </div>
           </div>
         </div>

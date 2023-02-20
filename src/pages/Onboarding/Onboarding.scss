@@ -1,3 +1,5 @@
+ @import '../../common/common.scss';
+
 .loginAndSignUp{
     
     .signContainer{
@@ -24,62 +26,7 @@
                 font-weight: 400;
                 font-size: 16px;
             }
-
-
-            .emailpwForm{
-                display: flex;
-                flex-direction: column;
-                align-items: flex-start;
-                justify-content: space-between;
-                font-family: 'Lato';
-                font-style: normal;
-                font-weight: 400;
-                font-size: 16px;
-
-                .uNameContainer{
-                    display: inline-flex;
-                    gap: 25px;
-                    width: 100%;
-
-                    .uName{
-                        width: 150px;
-                    }
-                }
-        
-                #pw, #email, #confirm, #fName, #lName{
-                    box-sizing: border-box;
-                    margin:10px 0 20px;
-                    padding: 10px 15px;
-                    width: 100%;
-                    height:40px;
-                    background-color: #EAEAEA;
-                    border-radius: 10px;
-                    border: none;
-                    outline: transparent;
-                
-                    font-family: 'Lato';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 16px;
-                }
-        
-                .forgotPwBtn{
-                    color: #346BD5;
-                    margin: 0 0 20px;
-                }
-                
-                .signBtn{
-                    width: 100%;
-                    height: 40px;
-                    border:none;
-                    background: #0D5F9A;
-                    border-radius: 10px;
-                    font-family: Montserrat;
-                    font-size: 16px;
-                    font-weight: 700;
-                    color: #FFFFFF;
-                } 
-            }
+            @include common-form;
 
             .registerQs{
                 font-family: 'Lato';

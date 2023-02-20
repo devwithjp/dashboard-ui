@@ -4,7 +4,7 @@ import './TwoFactorAuth.scss';
 
 export default function TwoFactorAuth(props){
     return(
-        <WhiteBox style={{padding:'30px 40px 40px', maxWidth: '500px', width:'100%'}}>
+        <WhiteBox style={{padding:'30px 40px 40px', minWidth: '300px', width:'100%',marginTop: '40px'}}>
             <h3 id='twoFAtitle'>Security</h3>
             <div id='twoFAContainer'>
                 <span>
