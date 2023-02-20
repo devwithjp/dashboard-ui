@@ -7,9 +7,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Dashboard from './pages/Dashboard/Dashboard';
-import Login from './pages/Login/Login';
 import Users from './pages/Users/Users';
 import Settings from './pages/Settings/Settings';
+import Onboarding from './pages/Onboarding/Onboarding';
 
 const router = createBrowserRouter([
   {
@@ -22,12 +22,12 @@ const router = createBrowserRouter([
   },
   {
     path: "login",
-    element: <Login />,
+    element: <Onboarding/>,
   },
-  // {
-  //   path: "signup",
-  //   element: <SignUp />
-  // },
+  {
+    path: "signup",
+    element: <Onboarding />
+  },
   {
     path: "users",
     element: <Users />,

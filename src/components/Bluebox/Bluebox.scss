@@ -1,0 +1,16 @@
+.bluebox{
+    width: 40vw;
+    height: 100vh;
+    background: #0D5F9A;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    h1{
+        font-family: Montserrat;
+        display: block;
+        color: white;
+        font-size: 72px;
+        font-weight: 700;
+    }
+}
