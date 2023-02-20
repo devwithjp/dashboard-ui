@@ -8,13 +8,13 @@ export default function Pagination(props){
     );
     return(
         <div id='pageBtnsContainer'>
-            {pageBtns(false, 'users/leftarrow.png')}
+            {pageBtns(false, '/users/leftarrow.png')}
             {pageBtns(true, 1)}
             {pageBtns(false, 2)}
             {pageBtns(false, 3)}
             {pageBtns(false, 4)}
             {pageBtns(false, 5)}
-            {pageBtns(false, 'users/rightarrow.png')}
+            {pageBtns(false, '/users/rightarrow.png')}
         </div>
     );
 }
