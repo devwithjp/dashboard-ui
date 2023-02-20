@@ -1,0 +1,21 @@
+#twoFAtitle{
+    margin: 0 0 11px;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+#twoFAContainer{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    
+
+    :nth-child(1){
+        font-family: 'Lato';
+        font-weight: 400;
+        font-size: 16px;
+    }
+
+}

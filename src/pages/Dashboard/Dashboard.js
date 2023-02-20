@@ -10,7 +10,7 @@ import './Dashboard.scss';
 export default function Dashboard(props){
     return (
         <div>
-          <SideBar/>
+          <SideBar title='Dashboard'/>
           <div style={{margin: '60px 60px 60px 380px'}}>
             <Header title='Dashboard' type='main'/>
             <div className='totalCards'>
