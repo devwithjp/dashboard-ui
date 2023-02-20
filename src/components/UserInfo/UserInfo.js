@@ -3,12 +3,12 @@ import './UserInfo.scss';
 export default function UserInfo(props){
     const {profilePic, name, email, gender, userType} = props.data;
     return(
-        <div className='usrInfoContainer'>
+        props.data ? <div className='usrInfoContainer'>
             <span><img src={profilePic} alt=''/></span>
             <span>{name}</span>
             <span>{email}</span>
             <span>{gender}</span>
             <span>{userType}</span>
-        </div>
+        </div> : <></>
     );
 }
