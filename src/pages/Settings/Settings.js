@@ -9,7 +9,7 @@ export default function Settings(props){
     return(
         <div>
           <SideBar title='Settings'/>
-          <div style={{margin: '60px 60px 60px 380px'}}>
+          <div style={{margin: '60px 60px 60px 25%',  maxWidth: '1094px'}}>
             <Header title='Settings' type='main'/>
             <div id='settingsContainer'>
               <EditProfile type="Profile"/>

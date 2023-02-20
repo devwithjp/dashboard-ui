@@ -68,7 +68,7 @@ export default function Users(props){
     return(
         <div>
             <SideBar title='Users'/>
-            <div style={{margin: '60px 60px 60px 380px'}}>
+            <div style={{margin: '60px 60px 60px 25%',  maxWidth: '1094px'}}>
                 <Header title='Users' type='main'/>
                 <WhiteBox style={{padding: '40px 50px 35px', margin: '40px 0'}}>
                     <Header title='User Records' style={{fontSize: '18px', marginBottom: '30px'}} type='usr'/>
